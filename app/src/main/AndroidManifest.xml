@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Wisata"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name="project.example.project2.UpdateUser" />
+        <activity android:name="project.example.project2.ShowProfile" />
+        <activity android:name="project.example.project2.LihatWisata"
+            android:theme="@style/Theme.Design">
+        </activity>
+        <activity android:name="project.example.project2.TambahWisata" />
+        <activity android:name="project.example.project2.Profile" />
+        <activity android:name="project.example.project2.Dasboard" />
+        <activity android:name="project.example.project2.Login" />
+        <activity android:name="project.example.project2.MainActivity" />
+        <activity android:name="project.example.project2.Register" />
+        <activity android:name="project.example.project2.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
